@@ -1,11 +1,18 @@
 #include <iostream>
+// Sums together all positive numbers and returns them
+int sum_positive(int array[], int n) {
+    int total = 0;
+    for (int i = 0; i < n; i++) {
+        if (array[i] > 0) {
+            total += array[i];
+        }
+    }
 
-// The `extern` keyword tells the compiler that the count function exists,
-// but will be implemented somewhere else
-extern int count(int[], int);
+    return total;
+}
 
 int main() {
-    int array[5] = {4,5,6,7,8};
-    std::cout << "The number is: " << count(array, 5) << std::endl;
+    int test_array[5] = {5,3,4,-1,8};
+    std::cout << sum_positive(test_array, 5) << std::endl;
     return 0;
 }
