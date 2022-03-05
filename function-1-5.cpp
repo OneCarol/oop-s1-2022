@@ -6,15 +6,16 @@ int count_even(int number){
  int array[number];
  
  for(int i=0;i<number;i++){
+  array[i] = i+1; 
 
-      if (number<1){
+      if (number<=1){
      return 0; 
- }
+     } 
      else {
-         if (array[i] % 2 == 0){
+         if (array[i]%2 == 0){
              counteven++ ; 
          }
      }
-     }
+  }
  return counteven; 
 }
