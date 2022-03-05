@@ -9,8 +9,8 @@ double average(int array[], int n) {
             sum = 0; 
         } 
         else {
-            sum += array[i];
-            average = sum/n; 
+            sum += array[i]; 
+            average = (double)sum/n; 
         }
         
     }
