@@ -8,8 +8,7 @@ int count_even(int number);
   cout << "Enter the Numbers:"; 
   cin >> number;
   
-  int counteven = count_even(number); 
-  cout << "To count the even number:" << counteven << endl; 
+  cout << "To count the even number:" << count_even(number)<< endl; 
   
   return 0; 
  }
