@@ -1,14 +1,20 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
-int count_even(int number);
-
-int main(){
-    
-int number,countEven;
-cout<<"Enter the number :";              
-cin>>number;
-
-cout<<"Number of even numbers :"<<countEven<<endl;
-return 0;
+int count_even(int number){
+ int counteven = 0; 
+ int array[number];
+ 
+  for(int i=0;i<number;i++){
+      if (number<1){
+     return 0; 
+ }
+     else {
+        
+         if (array[i]%2 == 0){
+             counteven ++; 
+         }
+     }
+     }
+ return counteven; 
 }
