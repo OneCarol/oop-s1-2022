@@ -9,7 +9,7 @@ bool ascending(int array[],int n){
         if(n<=0){
             return b; 
            } else {
-                if(array[i - 1] >= array[i]){
+                if(array[i] <= array[i]){
                     return a; 
                     }else{
                         return b; 
