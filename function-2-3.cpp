@@ -30,5 +30,5 @@ void twofivenine(int array[], int n){
          
        }    
     }
-    cout << "2:" << count2 << ";" << "5:" << count5 << ";" << "9:" << count9 << endl; 
+    cout << "2:" << count2 << ";" << "5:" << count5 << ";" << "9:" << count9 << ";" << endl; 
 }

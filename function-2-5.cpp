@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool ascending(int array[],int n){
+bool descending(int array[],int n){
     bool a = true;
     bool b = false;
 
