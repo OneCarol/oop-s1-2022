@@ -8,7 +8,7 @@ void twofivenine(int array[], int n){
     
     for(int i=0;i<n;i++){
         
-    if(n<1){
+    if(n<=0){
             cout << "There is an error." << endl; 
         }
         else{

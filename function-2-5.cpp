@@ -1,20 +1,22 @@
 #include <iostream>
-using namespace std; 
+using namespace std;
 
 bool ascending(int array[],int n){
-    bool a = true; 
-    bool b = false; 
-    
+    bool a = true;
+    bool b = false;
+
+    int number = array[1];
+
     for(int i=0;i<n;i++){
         if(n<=0){
-            return b; 
+            return b;
            } else {
-                if(array[i] <= array[i]){
-                    return a; 
+                if(number <= array[i]){
+                    return a;
                     }else{
-                        return b; 
+                        return b;
                     }
-                } 
+                }
             }
-    return 0; 
+    return 0;
 }
