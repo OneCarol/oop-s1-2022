@@ -18,12 +18,13 @@ void print_scaled_matrix(int array[3][3], int scale){
     for(i=0;i<3;i++){
         for(j=0;j<3;j++){
 
-         if(array[i][j] != array[i][2]) {
+          if(j==2){
+              cout<<array[i][j];}
+          else {
 
               cout << array[i][j] << " ";
           }
 
-          cout << array[i][j];
         }
         cout<<endl;
 

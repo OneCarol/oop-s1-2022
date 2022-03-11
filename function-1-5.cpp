@@ -18,12 +18,15 @@ void print_summed_matrices(int array1[3][3], int array2[3][3]){
      for(i=0;i<3;i++){
         for(j=0;j<3;j++){
 
-          if(sumatrix[i][j] != sumatrix[i][2]) {
+            if(j==2){
+              cout<<sumatrix[i][j];
+
+            }
+
+          else {
 
               cout << sumatrix[i][j] << " ";
           }
-
-          cout << sumatrix[i][j];
         }
         cout <<endl;
     }
