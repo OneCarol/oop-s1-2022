@@ -1,15 +1,19 @@
 #include <iostream>
-#include <string>
 using namespace std;
-
-void print_as_binary(std::string decimal_number);
 
 int main(){
 
-    string decimal_number = "45";
+ // Pointer declaration
+ int *pointer_number, a = 10;
 
-    print_as_binary(decimal_number);
+ // Assignment
+ pointer_number = &a;
 
+ cout << "Address of a:" << &a << endl;
+ cout << "Address of a:" << pointer_number << endl;
+ cout << "Address of pointer_number:" << &pointer_number <<endl;
+ cout << "Value of a:" << *pointer_number << endl;
 
-    return 0;
+ return 0;
+
 }

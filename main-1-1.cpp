@@ -1,14 +1,27 @@
 #include <iostream>
-#include <array>
-using namespace std; 
 
-int diagonal(int array[4] [4]); 
+void printer(int array[10][10]);
 
 int main(){
-    
-    int i; int j; 
-    
-    int array[4][4] = {1,2,3,4, 5,6,7,8, 9,0,3,2, 5,6,7,8};
-    
-    cout << "The sum is:" << diagonal(array) << endl;
+
+    int arrai[10][10] = {
+      {1,0,0,0,0,0,0,0,0,0},
+      {0,1,0,0,0,0,0,0,0,0},
+      {0,0,1,0,0,0,0,0,0,0},
+      {0,0,0,1,0,0,0,0,0,0},
+      {0,0,0,0,1,0,0,0,0,0},
+      {0,0,0,0,0,1,0,0,0,0},
+      {0,0,0,0,0,0,1,0,0,0},
+      {0,0,0,0,0,0,0,1,0,0},
+      {0,0,0,0,0,0,0,0,1,0},
+      {0,0,0,0,0,0,0,0,0,1},
+
+    };
+
+    printer(arrai);
+
+      std::cout << printer(arrai) << std::endl;
+
+      return 0;
 }
+re

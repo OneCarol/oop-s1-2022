@@ -1,24 +1,8 @@
 #include <iostream>
-using namespace std;
 
-int identity(int array[10][10]);
+void print_class(std::string courses[4], std::string students[], int report_card[][4], int nstudents); 
 
 int main(){
-   int array[10][10] = {
-      {1,0,0,0,0,0,0,0,0,0},
-      {0,1,0,0,0,0,0,0,0,0},
-      {0,0,1,0,0,0,0,0,0,0},
-      {0,0,0,1,0,0,0,0,0,0},
-      {0,0,0,0,1,0,0,0,0,0},
-      {0,0,0,0,0,1,0,0,0,0},
-      {0,0,0,0,0,0,1,0,0,0},
-      {0,0,0,0,0,0,0,1,0,0},
-      {0,0,0,0,0,0,0,0,1,0},
-      {0,0,0,0,0,0,0,0,0,1},
-
-   };
-
-   cout<<identity(array)<<endl;
-
-   return 0;
+    return 0; 
 }
+    
