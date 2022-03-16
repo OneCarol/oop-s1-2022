@@ -4,7 +4,7 @@ void printer(int array[10][10]);
 
 int main(){
 
-    int arrai[10][10] = {
+    int array[10][10] = {
       {1,0,0,0,0,0,0,0,0,0},
       {0,1,0,0,0,0,0,0,0,0},
       {0,0,1,0,0,0,0,0,0,0},
@@ -17,11 +17,9 @@ int main(){
       {0,0,0,0,0,0,0,0,0,1},
 
     };
+    
+     printer(array); 
 
-    printer(arrai);
-
-      std::cout << printer(arrai) << std::endl;
-
+     
       return 0;
 }
-re
