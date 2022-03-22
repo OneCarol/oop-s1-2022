@@ -1,24 +1,14 @@
 #include <iostream>
+using namespace std;
 
-void printer(int array[10][10]);
+int size_of_variable_star_t();
 
 int main(){
 
-    int array[10][10] = {
-      {1,0,0,0,0,0,0,0,0,0},
-      {0,1,0,0,0,0,0,0,0,0},
-      {0,0,1,0,0,0,0,0,0,0},
-      {0,0,0,1,0,0,0,0,0,0},
-      {0,0,0,0,1,0,0,0,0,0},
-      {0,0,0,0,0,1,0,0,0,0},
-      {0,0,0,0,0,0,1,0,0,0},
-      {0,0,0,0,0,0,0,1,0,0},
-      {0,0,0,0,0,0,0,0,1,0},
-      {0,0,0,0,0,0,0,0,0,1},
+    int *pointer, t = 20;
 
-   };
+    cout << "the size of variable is:" << size_of_variable_star_t << endl;
 
-    printer(array);
 
     return 0;
 }

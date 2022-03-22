@@ -1,23 +1,11 @@
 #include <iostream>
+using namespace std;
 
-void printer(int array[10][10]){
+int size_of_variable_star_t(){
 
-    for(int i=0;i<10;i++){
-        for(int j=0;j<10;j++){
+    int t, *pointer;
+    pointer = &t;
 
-            if(j==9){
-                std::cout << array[i][j];
-            }
-
-            else{
-                std::cout << array[i][j] << " ";
-            }
-
-
-        }
-
-        std::cout << std::endl;
-    }
-
-
+    cout << sizeof(pointer) << endl;
+    return t;
 }
