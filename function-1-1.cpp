@@ -4,11 +4,16 @@ using namespace std;
 
 void copy_2d_strings(std::string first[][2], std::string second[][2], int n){
 
-    for(int i=0;i<3;i++){
 
-        first[i][2] == second[i][2];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<2;j++){
 
-        cout << second[i] << endl;
+            first[i][j] == second[i][j];
+
+            cout << first[i][j];
+            cout << second[i][j] << endl;
+
+        }
     }
 
 }
