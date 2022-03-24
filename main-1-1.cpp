@@ -9,7 +9,7 @@ int main(){
     int n = 3;
 
     std::string first[3][2] = {
-    {"Blue", "Grenn"},
+    {"Blue", "Green"},
     {"Red", "White"},
     {"Black", "Pink"},
     };
