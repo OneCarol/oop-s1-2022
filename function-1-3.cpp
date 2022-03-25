@@ -8,7 +8,9 @@ void cpyia(int old_array[], int new_array[], int length){
 
         new_array[i] = old_array[i];
 
+        cout << *new_array << " ";
+
     }
 
-
+    cout << endl;
 }
