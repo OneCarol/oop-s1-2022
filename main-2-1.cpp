@@ -7,9 +7,9 @@ int main(){
 
     int length = 3;
 
-     int num[length] = {7,14,2};
+     int nums[length] = {7,14,2};
 
-     int* nums = new int[length];
+     print_sevens(nums, length);
 
     return 0;
 }
