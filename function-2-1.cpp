@@ -7,7 +7,7 @@ void print_sevens(int *nums, int length){
 
         if(*(nums+i)%7 == 0){
 
-            cout << *(nums+i) << " ";
+            cout << *(nums+i) << endl;
         }
     }
 
