@@ -16,7 +16,7 @@ class Unit{
 
     int get_bedrooms(){return m_bedrooms;}
     int get_value(){return m_value;}
-    double get_Area(){return m_area;}
+    double get_area(){return m_area;}
 
 };
 #endif
