@@ -1,9 +1,12 @@
+#pragma once
 #include <iostream>
 #include <string>
+#include "human.h"
 
 using namespace std;
 
-class visitor{
+class visitor: public human
+{
 
     private:
     string name;
@@ -13,13 +16,7 @@ class visitor{
     string ID;
 
     public:
-    visitor(){
-        name = ""; 
-        age = 0;
-        gender = ""; 
-        phone = ""; 
-        ID = ""; 
-    }
+    visitor(string name,int age,string gender,string phone,string ID); 
 
     
     string get_name(){return name;}
