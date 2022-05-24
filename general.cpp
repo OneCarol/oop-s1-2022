@@ -6,7 +6,7 @@ General::General()
 {
 }
 
-//constructor 
+//constructor
 General::General(string name, string password)
 {
     name = name;
