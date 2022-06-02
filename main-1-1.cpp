@@ -1,19 +1,22 @@
-#include 'animal.h'
-#include 'animal.cpp'
+#include "MemberOfParliament.h"
 #include <iostream>
 #include <string>
 
-using namespace std; 
+using namespace std;
 
-int main() {
-    
-    animal n; 
-    animal v; 
-    
-    set_name("Candy");
-    set_volume(9);
+int main(){
 
-  cout << "The area of the rectangle is: " << get_name() << endl;
-  cout << "The area of the triangle is: " << get_volume() << endl;
-  cout << get_animalID << endl; 
+    MemberOfParliament(string n, string p, int l);
+
+        string get_name("Smith");
+        string get_position("Left");
+        int get_yearsService(6);
+
+        cout << "The name of Parliament is:" << get_name(n) << endl;
+        cout << "The position of Parliament is:" <<get_position(p) << endl;
+        cout << "The years of Parliament works is:" << get_yearsService(y) << endl;
+
+
+
+    return 0;
 }
